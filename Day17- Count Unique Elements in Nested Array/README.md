@@ -18,3 +18,10 @@ countUnique(["a", ["b", ["a", "c"]], "d"]);
 countUniqueValues([1, [2, 3, [1, 4]], 2, [5, [3]]]);
 // Output: [1, 2, 3, 4, 5]
 ```
+
+## Challenge : Write a function chunkArray(arr, size) that splits an array into groups of the specified size and returns them as a 2D array.
+
+```js
+chunkArray([1, 2, 3, 4, 5, 6, 7], 3);
+// Output: [[1, 2, 3], [4, 5, 6], [7]]
+```
