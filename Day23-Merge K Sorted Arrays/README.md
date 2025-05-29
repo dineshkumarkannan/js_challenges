@@ -13,3 +13,16 @@ input: [
 
 // output: [1, 1, 2, 3, 4, 4, 5, 6]
 ```
+
+## Challenge 2 - Top K Frequent Elements
+
+Given an array of integers nums and an integer k, return the k most frequent elements.
+Topic: Hash Map + Min Heap (priority queue concept)
+
+```js
+Input: (nums = [1, 1, 1, 2, 2, 3]), (k = 2);
+// Output: [1, 2]; // 1 appears 3 times, 2 appears 2 times
+
+Input: (nums = [4, 1, -1, 2, -1, 2, 3]), (k = 2);
+// Output: [-1, 2];
+```
